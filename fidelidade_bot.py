@@ -4,11 +4,15 @@ import re
 import time
 from langdetect import detect
 from openai import AzureOpenAI
+from dotenv import load_dotenv
+import os
 
-API_KEY = "8J6pTdfaGgA5r193UVLsBshUspqwNpal42Jse1aHaok1cWNTLpRkJQQJ99BDACYeBjFXJ3w3AAABACOGLa23"
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+azure_endpoint = os.getenv("AZURE_ENDPOINT")
 
 client = AzureOpenAI(
-    azure_endpoint="https://ai-bcds.openai.azure.com/",
+    azure_endpoint=azure_endpoint,
     api_key=API_KEY,
     api_version="2024-05-01-preview"
 )

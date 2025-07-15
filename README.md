@@ -59,4 +59,22 @@ This assistant aims to improve the efficiency and quality of customer interactio
 
 ---
 
+## ⚙️ How to Run the Project Locally
 
+### 🔧 1. Clone the Repository
+
+```bash
+git clone https://github.com/ruitj/fidelidade-chatbot.git
+cd fidelidade-chatbot
+```
+
+### 📦 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🚀 3. Launch the Chatbot
+```bash
+streamlit run chatbot_app.py
+```
