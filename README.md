@@ -59,5 +59,4 @@ This assistant aims to improve the efficiency and quality of customer interactio
 
 ---
 
-## 📁 Project Structure
 
