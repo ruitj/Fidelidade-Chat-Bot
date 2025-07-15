@@ -1,0 +1,4 @@
+openai==1.95.1
+python-dotenv==1.0.1
+streamlit==1.46.1
+langdetect==1.0.9
